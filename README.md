@@ -3,11 +3,11 @@
 # TBL Experience
 
 ![GitHub License](https://img.shields.io/github/license/G02m0n1k/TBLE)  
-![Browsers](https://img.shields.io/badge/браузеры-Chrome%20(остальные%20под%20наблюдением)-yellow?style=flat)
+![Browsers](https://img.shields.io/badge/browsers-Chrome%20(остальные%20под%20наблюдением)-yellow?style=flat)
 
 
 ## Описание
-Данный скрипт для Tampermonkey был создан, чтобы передать опыт использования TBL - пк пользователям.
+Данный скрипт, для Tampermonkey, был создан, чтобы передать опыт использования TBL пользователям браузеров.
 
 **Разработчик:** G02m0n1k  
 
@@ -23,15 +23,15 @@
 <summary>Я еще не установил расширение Tampermonkey</summary>
 <br><b>1. Откройте подходящий вам магазин расширений и установите Tampermonkey</b><br>
 <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey">> Firefox</a><br>
-<a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">> Chromium (Chrome, Я.Браузер и т.д.)</a><br>
+<a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">> Chromium (Chrome, Vivaldi, Я.Браузер и т.д.)</a><br>
 <a href="https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd">> Edge</a><br>
 <a href="https://addons.opera.com/en/extensions/details/tampermonkey-beta/">> Opera</a><br>
-<a href="https://apps.apple.com/app/tampermonkey/id6738342400">> Safari</a><br>
+<a href="https://apps.apple.com/app/tampermonkey/id6738342400">> Safari (платно)</a><br>
 <img src="docs/store.png" alt="store" width="640px"><br><br>
-<p>В браузерах, в списке расширений, необходимо будет включить "Рехим разработчика", а некоторых, также потребуется включить пункт "Разрешить пользовательские скрипты" именно для Tampermonkey.</p>
+<p>В браузерах, в списке расширений, необходимо будет включить "Режим разработчика", а некоторых, также потребуется включить пункт "Разрешить пользовательские скрипты" именно для Tampermonkey (фото ниже)</p>
 <img src="docs/chrome.png" alt="dev" width="640px"><br>
 <br><b>2. Установите TBL Experience по <a href="https://raw.githubusercontent.com/G02m0n1k/TBLE/refs/heads/main/dist/TBLE.user.js">этой ссылке</a></b><br>
-<br><b>3. перезагрузите страницу <a href="https://twitblit.ru">twitblit</a></b><br>
+<br><b>3. Перезагрузите страницу <a href="https://twitblit.ru">Twitblit</a></b><br>
 <br><b>4. Готово! :D</b><br><br>
 </details>
 
