@@ -3,7 +3,7 @@
 # TBL Experience
 
 ![GitHub License](https://img.shields.io/github/license/G02m0n1k/TBLE)  
-![Browsers](https://img.shields.io/badge/browsers-Chrome%20(остальные%20под%20наблюдением)-yellow?style=flat)
+![Browsers](https://img.shields.io/badge/browsers-Chromium%20|%20Safari%20|%20Firefox-green?style=flat)
 
 
 ## Описание
