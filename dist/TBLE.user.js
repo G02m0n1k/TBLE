@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TBL Experience
 // @namespace    https://github.com/G02m0n1k/TBLE
-// @version      8
+// @version      6
 // @description  Скрипт, который изменяет стиль Twitblit под стиль TBL.
 // @author       G02m0n1k
 // @license      BSD-3-Clause
@@ -17,22 +17,6 @@
 // ==/UserScript==
 
 function insertBlocks() {
-    const currentWidth = window.screen.width || window.innerWidth;
-
-    const newWidth = Math.round(currentWidth * 1.12);
-
-    const metaViewport = document.querySelector('meta[name="viewport"]');
-    if (metaViewport) {
-        metaViewport.setAttribute('content', `width=${newWidth}, user-scalable=no`);
-    } else {
-        const meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = `width=${newWidth}, user-scalable=no`;
-        document.head.appendChild(meta);
-    }
-
-    //
-
     const container = document.querySelector('div.p-2[style="width: 240px;"]');
     if (container && !container.querySelector('a[href="/aethera"]')) {
         container.insertAdjacentHTML('afterbegin', `
@@ -70,11 +54,6 @@ function restyleViewer() {
     if (mask) {
         mask.style.background = 'rgba(0, 0, 0, 0.92)';
     }
-
-    document.querySelectorAll(`
-        .ant-image-preview-operations-operation.ant-image-preview-operations-operation-zoomIn,
-        .ant-image-preview-operations-operation.ant-image-preview-operations-operation-zoomOut
-    `).forEach(element => element.remove());
 
     const footer = document.querySelector('.ant-image-preview-operations');
     if (footer && !footer.querySelector('.ant-image-preview-operations-operation-download')) {
