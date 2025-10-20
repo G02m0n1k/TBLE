@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TBL Experience
 // @namespace    https://github.com/G02m0n1k/TBLE
-// @version      10
+// @version      11
 // @description  Скрипт, который меняет стиль Twitblit под TBL.
 // @author       G02m0n1k
 // @license      BSD-3-Clause
@@ -57,6 +57,13 @@ function restyleViewer() {
     const mask = document.querySelector('.ant-image-preview-mask');
     if (mask) {
         mask.style.background = 'rgba(0, 0, 0, 0.92)';
+    }
+
+    if (window.innerWidth < 600) {
+        document.querySelectorAll(`
+            .ant-image-preview-operations-operation.ant-image-preview-operations-operation-zoomIn,
+            .ant-image-preview-operations-operation.ant-image-preview-operations-operation-zoomOut
+        `).forEach(element => element.remove());
     }
 
     const footer = document.querySelector('.ant-image-preview-operations');
